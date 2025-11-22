@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Scramble Game</title>
+    <script src = "https://cdn.tailwindcss.com"></script>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body class = "bg-gray-900 pt-5">
+    <!-- overall container -->
+<div id = "container" class = "border-1 bg-gray-300 p-1 pb-1 rounded-2xl mx-auto mt-20 max-w-2xl shadow-lg">
+    <!-- time function -->
+<div id = "buzzer" class = "text-right pt-3 pr-10">
+    <p id="time-buzzer" class = "font-bold text-gray-900">Time Left: 150 Seconds</p>
+</div>
+    <!-- heading -->
+<div id = "heading" class = "text-3xl font-bold text-center pt-7 mt-3">
+    <h1>Word Scramble Game</h1>
+</div>
+    <!-- scrambled texts -->
+ <div id = "scrambled-text"></div>
+    <!--input field  -->
+<div id = "input-place" class = "text-center pt-10 mt-1 w-100%">
+    <input type = "text" id = "text-box" name = "text" class = " text-red-900 text-xl bg-white-800 border-2 border-gray-300 shadow-lg rounded-lg hover:bg-gray-400 rounded-lg p-3 pr-20 bg-gray-200 placeholder-gray-800 font-bold" placeholder = "Type your guess..." required>
+</div>
+    <!-- button -->
+<div id = "btns" class="text-center pt-3 mt-6 gap-3 w-100%">
+    <button type = "submit" id = "check-btn" class = "bg-green-800 border-2 shadow-lg rounded-lg hover:bg-green-600 text-white font-bold w-20 h-15 text-center p-1">Check</button>
+    <button type = "submit" id = "next-btn" class = "bg-blue-800 border-2 shadow-lg rounded-lg hover:bg-blue-600 text-white font-bold w-20 h-15 text-center p-1">Next</button>
+</div>
+    <!-- message -->
+<div id = "pop-msg"></div>
+    <!-- score -->
+<p id = "scores" class = "text-center pt-1 pb-5 mt-3 font-bold">
+    Score: <span>0</span>
+</p>
+    <!-- message
+<div id = "pop-msg"></div> -->
+</div>
+<script src = "script.js"></script>
+</body>
+</html>

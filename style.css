@@ -1,0 +1,13 @@
+#scrambled-text {            
+    text-align: center;            
+    font-size: 30px;                 
+    font-weight: bold;
+    letter-spacing: 0.7rem;       
+    color: purple;
+    margin-top: 20px;
+}
+#pop-msg {
+    margin-top: 10px;  
+    text-align: center;  
+    font-weight: bold;
+}
